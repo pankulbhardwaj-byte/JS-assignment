@@ -17,7 +17,7 @@ function checkPrime(num) {
     }
     return isPrime;
 }
-for (let i = L; i < R; i++) {
+for (let i = L; i <=R; i++) {
     if (i % K == 0) {
         let strNum = i.toString();
         let hasZero = false;
